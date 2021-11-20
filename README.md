@@ -1,2 +1,2 @@
 # OptiVoIP
-Programa para elegir el códec VoIP óptimo según los parámetros de entrada
+Program to choose the optimal VoIP codec according to the input parameters
