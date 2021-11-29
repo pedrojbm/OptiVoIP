@@ -209,7 +209,7 @@ class Ui_MainWindow(object):
         self.label_RetardoTotal_15.setAlignment(QtCore.Qt.AlignCenter)
         self.label_RetardoTotal_15.setObjectName("label_RetardoTotal_15")
         self.label_paquetesRTP_15 = QtWidgets.QLabel(self.page_2)
-        self.label_paquetesRTP_15.setGeometry(QtCore.QRect(530, 220, 91, 31))
+        self.label_paquetesRTP_15.setGeometry(QtCore.QRect(530, 220, 101, 31))
         self.label_paquetesRTP_15.setText("")
         self.label_paquetesRTP_15.setAlignment(QtCore.Qt.AlignCenter)
         self.label_paquetesRTP_15.setObjectName("label_paquetesRTP_15")
@@ -219,7 +219,7 @@ class Ui_MainWindow(object):
         self.label_RetardoTotal_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_RetardoTotal_2.setObjectName("label_RetardoTotal_2")
         self.label_paquetesRTP_2 = QtWidgets.QLabel(self.page_2)
-        self.label_paquetesRTP_2.setGeometry(QtCore.QRect(530, 280, 91, 31))
+        self.label_paquetesRTP_2.setGeometry(QtCore.QRect(530, 280, 101, 31))
         self.label_paquetesRTP_2.setText("")
         self.label_paquetesRTP_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_paquetesRTP_2.setObjectName("label_paquetesRTP_2")
@@ -289,6 +289,9 @@ class Ui_MainWindow(object):
         self.label_CODEC_2.setLineWidth(3)
         self.label_CODEC_2.setText("")
         self.label_CODEC_2.setObjectName("label_CODEC_2")
+        self.button_atras = QtWidgets.QPushButton(self.page_2)
+        self.button_atras.setGeometry(QtCore.QRect(170, 350, 75, 23))
+        self.button_atras.setObjectName("button_atras")
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
@@ -502,6 +505,9 @@ class Ui_MainWindow(object):
         self.button_correo = QtWidgets.QPushButton(self.page_3)
         self.button_correo.setGeometry(QtCore.QRect(600, 320, 91, 21))
         self.button_correo.setObjectName("button_correo")
+        self.button_atras2 = QtWidgets.QPushButton(self.page_3)
+        self.button_atras2.setGeometry(QtCore.QRect(150, 380, 75, 23))
+        self.button_atras2.setObjectName("button_atras2")
         self.stackedWidget.addWidget(self.page_3)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
@@ -513,7 +519,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(1)
+        self.stackedWidget.setCurrentIndex(2)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -539,6 +545,7 @@ class Ui_MainWindow(object):
         self.label_30.setText(_translate("MainWindow", "x2"))
         self.button_siguiente.setText(_translate("MainWindow", "Siguiente"))
         self.label_15.setText(_translate("MainWindow", "El codec elegido es:"))
+        self.button_atras.setText(_translate("MainWindow", "Atrás"))
         self.button_BHT.setText(_translate("MainWindow", "Tráfico durante la BHT"))
         self.label_53.setText(_translate("MainWindow", "RTP"))
         self.label_54.setText(_translate("MainWindow", "cRTP"))
@@ -563,6 +570,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "En Kbps"))
         self.label_14.setText(_translate("MainWindow", "En Kbps"))
         self.button_correo.setText(_translate("MainWindow", "Enviar correo"))
+        self.button_atras2.setText(_translate("MainWindow", "Atrás"))
 
 
 if __name__ == "__main__":

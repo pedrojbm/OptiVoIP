@@ -46,6 +46,7 @@ class MainWindows(QtWidgets.QMainWindow, Ui_MainWindow):
         self.stackedWidget.setCurrentWidget(self.page_2)        
         self.button_siguiente.clicked.connect(self.showPage3)
         self.button_calcularRt.clicked.connect(self.devolver_Rt)
+        self.button_atras.clicked.connect(self.showPage1)
         
 	#Funcion que muestra la pagina 3 de la interfaz  	
     def showPage3(self):
@@ -57,6 +58,8 @@ class MainWindows(QtWidgets.QMainWindow, Ui_MainWindow):
         self.comboBox_CODEC.activated.connect(self.combo_codec)
         self.button_cambiarParametros.clicked.connect(self.showPage1)        
         self.button_correo.clicked.connect(self.mandar_correo)
+        self.button_atras2.clicked.connect(self.showPage2)
+
             
     #Leemos los valores de entrada y calculamos los retardos, el bht y los anchos de banda
     def asigna_valor(self):
