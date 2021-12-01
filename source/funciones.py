@@ -7,7 +7,7 @@ Version: 0.2
 Author: Mireia Juguera Carrillo <mireiajc@correo.ugr.es>
 Update by: Pedro Javier Belmonte Miñano <pedrojbm@correo.ugr.es>
 
-Description: 
+Description: funciones de calculo de parametros
 """
 
 import erlang

@@ -7,7 +7,7 @@ Version: 0.2
 Author: Mireia Juguera Carrillo <mireiajc@correo.ugr.es>
 Update by: Pedro Javier Belmonte Miñano <pedrojbm@correo.ugr.es>
 
-Description: 
+Description: codigo principal de OptiVoIP, utiliza MainUI para la gestión de interfaz gráfica
 """
 
 from mainUI import *
@@ -15,7 +15,7 @@ import numpy #Biblioteca matemática
 import funciones #Script con nuestras funciones
 import smtplib
 
-#Cargamos los valores que guardamos en los exel
+#Cargamos los valores que guardamos en los excel
 codecs = numpy.loadtxt(open("tabla_codecs.csv", "rb"), delimiter=";")
 Retardo_alg = numpy.loadtxt(open("retardo_alg.csv", "rb"), delimiter=";")
 

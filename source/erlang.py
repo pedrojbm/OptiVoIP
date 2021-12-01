@@ -7,7 +7,7 @@ Version: 0.2
 Author: Mireia Juguera Carrillo <mireiajc@correo.ugr.es>
 Update by: Pedro Javier Belmonte Miñano <pedrojbm@correo.ugr.es>
 
-Description: 
+Description: funciones de calculo de la distribucion erlang
 """
 
 # https://en.wikipedia.org/wiki/Erlang_(unit)#Erlang_B_formula
